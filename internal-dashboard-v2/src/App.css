@@ -1,0 +1,376 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.button{
+  background-color: black;
+}
+
+
+.dialog__index {
+  z-index: 10;
+}
+.dialogContent__index {
+  z-index: 20;
+}
+.CalendarDay__default {
+  border: none !important;
+}
+
+.CalendarDay__selected_span {
+  background-color: #ebebeb !important;
+  color: black !important;
+  border-left: none !important;
+  border-right: none !important;
+  
+}
+
+.CalendarMonth_table {
+  border-collapse: separate;
+  border-spacing: 0px 2px;
+}
+
+/* sri changed */
+.CalendarDay__default:hover > .innerdate {
+  /* background-color: black !important; */
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* color: white; */
+  justify-content: center;
+  align-items: center;
+}
+
+.CalendarDay__selected_span:hover {
+  /* color: red !important; */
+}
+
+.CalendarDay:hover {
+  background-color: white;
+  border: none;
+  /* background-color: red;
+  color: red; */
+}
+
+.CalendarDay {
+  position: relative;
+}
+
+/* // Will edit selected date or the endpoints of a range of dates */
+.CalendarDay__selected_start {
+  background-color: #ebebeb !important;
+  color: white;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border: none !important;
+}
+
+.CalendarDay__selected_start > .innerdate {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 50%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  border: none !important;
+}
+
+
+.CalendarDay__selected_end {
+  background-color: #ebebeb !important;
+  color: white;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border: none !important;
+}
+
+.CalendarDay__selected_end > .innerdate {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 50%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  border: none !important;
+}
+
+.CalendarDay__hovered_span {
+  background-color: #f5f5f5;
+  color: black;
+}
+
+.CalendarDay__selected_end:hover {
+  background: black;
+  /* color: white; */
+}
+
+/* sri  commented */
+.CalendarDay__default:hover {
+  border: 50%;
+  /* background-color: red; */
+  /* background-color: transparent !important;  */
+}
+
+.CalendarDay__outside {
+  color: #b3b3b3;
+}
+
+/* between selected dates color */
+.CalendarDay__hovered_span,
+.CalendarDay__hovered_span:hover {
+  background-color: #b3b3b3 !important;
+  color: black !important;
+}
+.CalendarMonth_caption_1 {
+  font-size: 16px !important;
+  font-weight: 300 !important;
+}
+.DayPicker__withBorder {
+  box-shadow: none !important;
+}
+/* VARIABLES */
+
+:root {
+  --main-color: #1a8fff;
+  --text-color: #777;
+  --text-color-light: #ccc;
+  --border-color: #EEEEEE;
+  --bg-color: #f9f9f9;
+  --neutral-color: #fff;
+}
+
+
+
+header {
+  display: block;
+  width: 100%;
+  padding: 1.75em 0;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--neutral-color);
+}
+
+header #logo {
+  font-size: 175%;
+  text-align: center;
+  color: var(--main-color);
+  line-height: 1;
+}
+
+header #logo .icon {
+  padding-right: .25em;
+}
+
+main {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5em;
+  max-width: 50em;
+}
+
+
+/* GRID */
+
+.row {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.row-middle {
+  align-items: center;
+}
+
+.col {
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 100%;
+}
+
+.col-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.col-center {
+  justify-content: center;
+  text-align: center;
+}
+
+.col-end {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+
+/* Calendar */
+
+.calendar {
+  display: block;
+  position: relative;
+  width: 100%;
+  background: #ffffff;
+  height:100%;
+  overflow-y: scroll;
+}
+
+.calendar .header {
+  padding: 0 0 0.5em 0;
+  border-bottom: 1px solid #e3e0e0;
+}
+
+.calendar .header .icon {
+  cursor: pointer;
+  transition: .15s ease-out;
+}
+
+.calendar .header .icon:hover {
+  transform: scale(1.75);
+  transition: .25s ease-out;
+  color: var(--main-color);
+}
+
+.calendar .header .icon:first-of-type {
+  margin-left: 1em;
+}
+
+.calendar .header .icon:last-of-type {
+  margin-right: 1em;
+}
+
+.calendar .days {
+  font-weight: 400;
+  color:  #000000;
+  font-size: 1em;
+  padding: .75em 0;
+}
+
+.body{
+  border-radius:16px
+}
+
+.calendar .body .cell {
+  position: relative;
+  /* height: 5em; */
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.25s ease-out;
+}
+
+.calendar .body .cell:hover {
+  background: #000000;
+  transition: 0.5s ease-out;
+  color:#ffffff
+}
+
+.calendar .body .selected {
+ background-color: #000000;
+ color:#ffffff
+}
+
+.calendar .body .selectedGray {
+  background-color: #F2F2F2;
+  color:#000000
+ }
+
+
+
+.calendar .body .row:last-child {
+  border-bottom: none;
+}
+
+.calendar .body .cell:last-child {
+  border-right: none;
+}
+
+.calendar .body .cell .top {
+  position: absolute;
+  top: .5em;
+  left: .5em;
+}
+
+.calendar .body .disabled {
+  color: var(--text-color-light);
+  pointer-events: none;
+}
+
+.calendar .body .cell .bg {
+  font-weight: 700;
+  line-height: 1;
+  color: var(--main-color);
+  opacity: 0;
+  font-size: 8em;
+  position: absolute;
+  top: -.2em;
+  right: -.05em;
+  transition: .25s ease-out;
+  letter-spacing: -.07em;
+}
+
+.calendar .body .cell:hover .bg, .calendar .body .selected .bg  {
+  opacity: 0.05;
+  transition: .5s ease-in;
+}
+
+.calendar .body .col {
+  flex-grow: 0;
+  flex-basis: calc(100%/7);
+  width: calc(100%/7);
+}
+
+.month{
+  margin-top: 2.5rem;
+}
+
