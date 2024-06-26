@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "components/*": ["./src/components/*"],
+      "ui/*": ["./src/ui/*"],
+      "layouts/*": ["./src/components/layouts/*"],
+      "styles/*": ["./src/styles/*"],
+      "assets/*": ["./src/public/assets/*"],
+      "utils/*": ["./src/utils/*"],
+      "contexts/*": ["./src/contexts/*"],
+      "types/*": ["./src/types/*"],
+      "services/*": ["./src/services/*"],
+      "constants/*": ["./src/constants/*"],
+      "store/*": ["./src/store/*"],
+      "slices/*": ["./src/store/slices/*"],
+      "reducers/*": ["./src/store/reducers/*"],
+      "selectors/*": ["./src/store/selectors/*"],
+      "src/*": ["./src/*"]
+    },
+    "strictNullChecks": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "image.d.ts",
+    "env.d.ts",
+    "node_modules/@types/google.maps/index.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+, "src/store/slices/listing/amenities.js", "src/ui/appbar/defaultAction.js", "src/store/slices/calendar/upcomingBookings.js", "src/store/slices/calendar/propertyList.js", "src/pages/dashboard/listing/index.js"  ],
+  "exclude": ["node_modules", "**/*.js", "**/*.jsx"]
+}

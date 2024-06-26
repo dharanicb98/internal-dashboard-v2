@@ -1,0 +1,162 @@
+{
+    "bannerData": {
+        "title": "Discover Poconos Mountain",
+        "subTitle": "Find your next vacation house in the Poconos. Houses with indoor pool, hot tubs, game room, movie theater and many more amenities."
+    },
+    "topRatedHouse": [
+        {
+            "type": "text",
+            "title": "Luxury Mansion Rental with Private Pool in Poconos",
+            "review": {
+                "reviewBy": "Kelie Jen",
+                "reviewDate": "February 1, 2022",
+                "rating": 4,
+                "review": "Simply amazing! Yes, it was. The spacious rooms, king-size beds, hot tubs, and greenery impressed us to the core. I, my husband, and my kid had the best time of their life. We will surely visit the place again.",
+                "images": ["", ""]
+            }
+        }
+    ],
+    "explore": {
+        "title": "Explore Poconos",
+        "description": "Explore the Poconos in style by staying at our lavish vacation homes equipped with an indoor pool, hot tub, game room, movie theater, and other top-notch amenities.",
+        "tabData": [
+            {
+                "name": "About Poconos",
+                "description": "Vacation is different for everyone. Some of us look for romantic getaways while others crave lively parties. Don’t worry! HolidayKeepers has multiple options for everyone. Whether it is a Luxury cabin, a large group bachelor party house or just a family ",
+                "linkText": "Learn More About Poconos",
+                "linkUrl": "",
+                "videoURL": ""
+            },
+            {
+                "name": "Things to Do",
+                "description": "Vacation is different for everyone. Some of us look for romantic getaways while others crave lively parties. Don’t worry! HolidayKeepers has multiple options for everyone. Whether it is a Luxury cabin, a large group bachelor party house or just a family ",
+                "videoURL": ""
+            },
+            {
+                "name": "Attractions",
+                "description": "Vacation is different for everyone. Some of us look for romantic getaways while others crave lively parties. Don’t worry! HolidayKeepers has multiple options for everyone. Whether it is a Luxury cabin, a large group bachelor party house or just a family ",
+                "videoURL": ""
+            },
+            {
+                "name": "Maps",
+                "description": "Vacation is different for everyone. Some of us look for romantic getaways while others crave lively parties. Don’t worry! HolidayKeepers has multiple options for everyone. Whether it is a Luxury cabin, a large group bachelor party house or just a family ",
+                "videoURL": ""
+            },
+            {
+                "name": "Amenities",
+                "description": "Vacation is different for everyone. Some of us look for romantic getaways while others crave lively parties. Don’t worry! HolidayKeepers has multiple options for everyone. Whether it is a Luxury cabin, a large group bachelor party house or just a family ",
+                "videoURL": ""
+            },
+            {
+                "name": "Blogs",
+                "description": "Vacation is different for everyone. Some of us look for romantic getaways while others crave lively parties. Don’t worry! HolidayKeepers has multiple options for everyone. Whether it is a Luxury cabin, a large group bachelor party house or just a family ",
+                "videoURL": "",
+                "data": [
+                    {
+                        "title": "Top 5 things to Do in Lake Martin, Alabama",
+                        "shortRead": "The moment we hear the word “Lake”, it reminds us of all the things we can do on the beach side and the water sports we can indulge in. However, Lake Martin is much more than that. Here we have zip lines, air adventures, hiking facilities and horseback riding spots. Discussing these activities and the spots associated with them will give you a clear-cut idea about",
+                        "url": ""
+                    },
+                    {
+                        "title": "Seabrooks Restaurant & Best Places to Eat",
+                        "shortRead": "The moment we hear the word “Lake”, it reminds us of all the things we can do on the beach side and the water sports we can indulge in. However, Lake Martin is much more than that. Here we have zip lines, air adventures, hiking facilities and horseback riding spots. Discussing these activities and the spots associated with them will give you a clear-cut idea about",
+                        "url": ""
+                    },
+                    {
+                        "title": "Why is Poconos Considered the Best Place to Invest in Vacation Rentals",
+                        "shortRead": "The moment we hear the word “Lake”, it reminds us of all the things we can do on the beach side and the water sports we can indulge in. However, Lake Martin is much more than that. Here we have zip lines, air adventures, hiking facilities and horseback riding spots. Discussing these activities and the spots associated with them will give you a clear-cut idea about",
+                        "url": ""
+                    },
+                    {
+                        "title": "Top 5 things to Do in Lake Martin",
+                        "shortRead": "The moment we hear the word “Lake”, it reminds us of all the things we can do on the beach side and the water sports we can indulge in. However, Lake Martin is much more than that. Here we have zip lines, air adventures, hiking facilities and horseback riding spots. Discussing these activities and the spots associated with them will give you a clear-cut idea about",
+                        "url": ""
+                    },
+                    {
+                        "title": "How to Increase Booking/Occupancy Rate for your Vacation Rentals",
+                        "shortRead": "The moment we hear the word “Lake”, it reminds us of all the things we can do on the beach side and the water sports we can indulge in. However, Lake Martin is much more than that. Here we have zip lines, air adventures, hiking facilities and horseback riding spots. Discussing these activities and the spots associated with them will give you a clear-cut idea about",
+                        "url": ""
+                    },
+                    {
+                        "title": "Top 5 things to Do in Lake Martin",
+                        "shortRead": "The moment we hear the word “Lake”, it reminds us of all the things we can do on the beach side and the water sports we can indulge in. However, Lake Martin is much more than that. Here we have zip lines, air adventures, hiking facilities and horseback riding spots. Discussing these activities and the spots associated with them will give you a clear-cut idea about",
+                        "url": ""
+                    }
+                ]
+            },
+            {
+                "name": "Weather",
+                "description": "Vacation is different for everyone. Some of us look for romantic getaways while others crave lively parties. Don’t worry! HolidayKeepers has multiple options for everyone. Whether it is a Luxury cabin, a large group bachelor party house or just a family ",
+                "videoURL": ""
+            }
+        ]
+    },
+    "breadcrum": [
+        {
+            "title": "Home",
+            "url": "/"
+        },
+        {
+            "title": "Pennsylvania",
+            "url": "/pa"
+        },
+        {
+            "title": "Poconos",
+            "url": "#"
+        }
+    ],
+    "faqs": {
+        "defaultImageUrl": "/images/faqs/faq.png",
+        "allFaqs": [
+            {
+                "type": "faq",
+                "question": "Is my pet allowed inside the property",
+                "answer": "Every property is not pet friendly, please confirm with your host before booking, most of the properties in poconos are pet friendly.",
+                "urlText": "Pet friendly properties",
+                "url": "/",
+                "imgurl": "/2023/04/faq.png",
+                "isActive": false
+            },
+            {
+                "type": "faq",
+                "question": "When should I visit Poconos ?",
+                "answer": "The best time to go to the Poconos area is fall, winter and summer. While Poconos is an all-seasons popular spot, rates of vacation rental homes are usually lowest during spring.",
+                "urlText": "Properties with best outdoor aminities",
+                "url": "/",
+                "imgurl": "/images/faqs/faq2.png",
+                "isActive": false
+            },
+            {
+                "type":"faq",
+                "question": "How to become a Host ?",
+                "answer": "If you want to vacation in Poconos, look for vacation homes and rentals close to some famous attractions, including Camelbeach Mountain Waterpark, Lake Harmony, Lehigh",
+                "urlText": "Become a Host",
+                "url": "/",
+                "imgurl": "/images/faqs/faq3.png",
+                "isActive": false
+            },
+            {
+                "type":"faq",
+                "question": "Cost of renting in Poconos ?",
+                "answer": "every property is not pet ffriendly, please confirm with your host before booking, most of the properties in poconos are pet friendly.",
+                "urlText": "Budget friendly Properties",
+                "url": "/",
+                "imgurl": "/images/faqs/faq4.png",
+                "isActive": false
+            },
+            {
+                "type":"query",
+                "question": "Any other question ?",
+                "imgurl": "/images/faqs/queryfaq.png",
+                "isActive": false
+            },
+            {
+                "type":"query",
+                "question": "Any other question ?",
+                "imgurl": "/images/faqs/queryfaq.png",
+                "isActive": false
+            }
+        ]
+    }
+}
+

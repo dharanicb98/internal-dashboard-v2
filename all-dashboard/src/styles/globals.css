@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Variables */
+:root {
+  --grey-default: #d9d9d9;
+  --black: #000;
+  --white: #fff;
+}
+
+/* Custom Styles */
+html {
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background-color: white;
+  color: var(--black);
+  font-family: "Inter", sans-serif;
+}
+
+.floating-input  input:-webkit-autofill {
+  box-shadow: 0 0 0 30px red inset !important; /* Set a white box shadow */
+  -webkit-text-fill-color: inherit !important; /* Inherit text color */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dark-scrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  display: block;
+}
+
+.dark-scrollbar::-webkit-scrollbar-track {
+  background: #d9d9d9;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.dark-scrollbar::-webkit-scrollbar-thumb {
+  background: black;
+  border-left: 8px solid black;
+  border-right: 8px solid black;
+  border-radius: 10px;
+}
+
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.dashed__border {
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='16' ry='16' stroke='%23333' stroke-width='3' stroke-dasharray='9%2c 14' stroke-dashoffset='7' stroke-linecap='square'/%3e%3c/svg%3e");
+}
+
+.colored-circle {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+/* Custom Styles - End */
+
+/* Base Styles */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+[type="radio"]:checked {
+  background-size: 2em 2em;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: black;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Z Indexes */
+.select__index {
+  z-index: 1;
+}
+
+.appBar__index {
+  z-index: 5;
+}
+
+.dialog__index {
+  z-index: 10;
+}
+
+.dialogContent__index {
+  z-index: 20;
+}
+
+.confirmDialog__index {
+  z-index: 12;
+}
+
+.confirmDialogContent__index {
+  z-index: 22;
+}
+
+.max_index {
+  z-index: 23;
+}
+
+/* Base CSS */
+a {
+  cursor: pointer;
+}
+
+/* Input Focus Override */
+input,
+textarea,
+select {
+  &:focus,
+  &:focus,
+  &:focus {
+    outline: none;
+    outline-offset: 0;
+    box-shadow: none;
+    border-color: var(--grey-default);
+  }
+}
+
+/* Google Map Autocomplete Options */
+.pac-container {
+  z-index: 0 !important;
+}
+
+/* Input Autofill */
+input:-webkit-autofill {
+  transition: background-color 5000s ease-in-out 0s !important;
+  background-color: white !important;
+}
+
+input:-webkit-autofill::placeholder {
+  color: inherit !important;
+}
+
+select:focus ~ label,
+select:not([value='']):valid ~ label {
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate))
+    skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-scale-x: 0.75;
+  --tw-scale-y: 0.75;
+  --tw-translate-y: -1.5rem;
+}
+
+select:focus ~ label {
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
+  left: 0px;
+}

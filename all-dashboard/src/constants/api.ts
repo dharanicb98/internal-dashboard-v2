@@ -1,0 +1,13 @@
+export const SERVER_API_URL = process.env.NEXT_PUBLIC_SERVER_URL;
+export const IP_API_KEY = process.env.NEXT_PUBLIC_IP_API_KEY;
+export const FB_APP_ID = process.env.NEXT_PUBLIC_FB_APP_ID;
+export const LINKEDIN_APP_SECRET = process.env.NEXT_PUBLIC_LINKEDIN_APP_SECRET;
+export const LINKEDIN_APP_ID = process.env.NEXT_PUBLIC_LINKEDIN_APP_ID;
+export const TWITTER_APP_ID = process.env.NEXT_PUBLIC_TWITTER_APP_ID;
+export const TWITTER_V2_APP_KEY = process.env.NEXT_PUBLIC_TWITTER_V2_APP_KEY;
+export const TWITTER_V2_APP_SECRET =process.env.NEXT_PUBLIC_TWITTER_V2_APP_SECRET;
+export const APPLE_ID = process.env.NEXT_PUBLIC_APPLE_ID;
+export const SERVER_CALENDAR_API_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
+export const SERVER_CHAT_API_URL = process.env.NEXT_PUBLIC_CHAT_API_BASE_URL;
+export const CUSTOMER_RESERVATION_API_URL =process.env.NEXT_PUBLIC_CUSTOMER_RESERVATION_API_URL;
+export const TEMP_USER_TOKEN = process.env.NEXT_PUBLIC_TEMP_USER_TOKEN;

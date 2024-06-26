@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/",
+    "jsx": "react",
+    "paths": {
+      "components/*": ["./src/components/*"],
+      "ui/*": ["./src/ui/*"],
+      "layouts/*": ["./src/components/layouts/*"],
+      "styles/*": ["./src/styles/*"],
+      "assets/*": ["./src/public/assets/*"],
+      "utils/*": ["./src/utils/*"],
+      "contexts/*": ["./src/contexts/*"],
+      "types/*": ["./src/types/*"],
+      "services/*": ["./src/services/*"],
+      "store/*": ["./src/store/*"],
+      "slices/*": ["./src/store/slices/*"],
+      "reducers/*": ["./src/store/reducers/*"],
+      "selectors/*": ["./src/store/selectors/*"],
+      "src/*": ["./src/*"]
+    }
+  },
+  "include": ["**/*.js", "**/*.jsx"],
+  "exclude": ["node_modules"]
+}
